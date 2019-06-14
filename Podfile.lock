@@ -1,0 +1,249 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Alamofire (4.8.2)
+  - BigInt (3.1.0):
+    - SipHash (~> 1.2)
+  - CountryPicker (1.3)
+  - CXDatePickerView (0.1.8)
+  - EBForeNotification (1.0.8)
+  - FlickerNumber (1.1)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - GRDB.swift (3.6.2)
+  - HSCryptoKit (1.3.0)
+  - HSHDWalletKit (1.0.4):
+    - HSCryptoKit (~> 1.3.0)
+  - InputKit (1.1.15)
+  - ISO8601DateFormatter (0.8)
+  - JKCountDownButton (1.3.0)
+  - KSCrash (0.0.9):
+    - KSCrash/Installations (= 0.0.9)
+    - KSCrash/no-arc (= 0.0.9)
+    - KSCrash/Recording (= 0.0.9)
+    - KSCrash/Reporting (= 0.0.9)
+  - KSCrash/Installations (0.0.9):
+    - KSCrash/Recording
+    - KSCrash/Reporting
+  - KSCrash/no-arc (0.0.9)
+  - KSCrash/Recording (0.0.9):
+    - KSCrash/no-arc
+  - KSCrash/Reporting (0.0.9):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters (= 0.0.9)
+    - KSCrash/Reporting/Sinks (= 0.0.9)
+    - KSCrash/Reporting/Tools (= 0.0.9)
+  - KSCrash/Reporting/Filters (0.0.9):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Alert (= 0.0.9)
+    - KSCrash/Reporting/Filters/AppleFmt (= 0.0.9)
+    - KSCrash/Reporting/Filters/Base (= 0.0.9)
+    - KSCrash/Reporting/Filters/Basic (= 0.0.9)
+    - KSCrash/Reporting/Filters/GZip (= 0.0.9)
+    - KSCrash/Reporting/Filters/JSON (= 0.0.9)
+    - KSCrash/Reporting/Filters/Sets (= 0.0.9)
+  - KSCrash/Reporting/Filters/Alert (0.0.9):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/AppleFmt (0.0.9):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/Base (0.0.9):
+    - KSCrash/Recording
+  - KSCrash/Reporting/Filters/Basic (0.0.9):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/GZip (0.0.9):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/JSON (0.0.9):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/Sets (0.0.9):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/AppleFmt
+    - KSCrash/Reporting/Filters/Base
+    - KSCrash/Reporting/Filters/Basic
+    - KSCrash/Reporting/Filters/GZip
+    - KSCrash/Reporting/Filters/JSON
+  - KSCrash/Reporting/Sinks (0.0.9):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters
+    - KSCrash/Reporting/Tools
+  - KSCrash/Reporting/Tools (0.0.9):
+    - KSCrash/Recording
+  - LLKit (0.0.1):
+    - MBProgressHUD (~> 0.9.1)
+    - Toast (~> 3.0)
+  - Marshal (1.2.7)
+  - MBProgressHUD (0.9.2)
+  - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.15.7)
+  - Presentr (1.9)
+  - QiQRCode (0.0.1)
+  - QRCodeReader.swift (10.0.0)
+  - Realm (3.14.1):
+    - Realm/Headers (= 3.14.1)
+  - Realm/Headers (3.14.1)
+  - RealmSwift (3.14.1):
+    - Realm (= 3.14.1)
+  - RxAtomic (4.4.2)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.5.0)
+  - secp256k1_ios (0.1.3)
+  - SipHash (1.2.2)
+  - SnapKit (4.2.0)
+  - SwipeMenuViewController (3.0.0)
+  - TangramKit (1.3.1)
+  - Toast (3.1.0)
+  - TTTAttributedLabel (2.0.0)
+  - UICKeyChainStore (2.1.2)
+  - VBRRollingPit (1.0.1)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - Alamofire
+  - BigInt
+  - CountryPicker
+  - CXDatePickerView
+  - EBForeNotification
+  - FlickerNumber
+  - FMDB
+  - GRDB.swift (~> 3.6.2)
+  - HSCryptoKit (~> 1.3.0)
+  - HSHDWalletKit (~> 1.0.4)
+  - InputKit (~> 1.1.15)
+  - ISO8601DateFormatter
+  - JKCountDownButton
+  - KSCrash (~> 0.0.3)
+  - LLKit
+  - Marshal
+  - MBProgressHUD (~> 0.9.1)
+  - MJExtension
+  - MJRefresh
+  - Presentr
+  - QiQRCode
+  - QRCodeReader.swift (~> 10.0.0)
+  - RealmSwift
+  - RxAtomic
+  - RxCocoa
+  - RxSwift
+  - secp256k1_ios (from `https://github.com/shamatar/secp256k1_ios.git`)
+  - SnapKit
+  - SwipeMenuViewController
+  - TangramKit
+  - TTTAttributedLabel
+  - UICKeyChainStore
+  - VBRRollingPit
+  - YYCategories
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - Alamofire
+    - BigInt
+    - CountryPicker
+    - CXDatePickerView
+    - EBForeNotification
+    - FlickerNumber
+    - FMDB
+    - GRDB.swift
+    - HSCryptoKit
+    - HSHDWalletKit
+    - InputKit
+    - ISO8601DateFormatter
+    - JKCountDownButton
+    - KSCrash
+    - LLKit
+    - Marshal
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - Presentr
+    - QiQRCode
+    - QRCodeReader.swift
+    - Realm
+    - RealmSwift
+    - RxAtomic
+    - RxCocoa
+    - RxSwift
+    - SipHash
+    - SnapKit
+    - SwipeMenuViewController
+    - TangramKit
+    - Toast
+    - TTTAttributedLabel
+    - UICKeyChainStore
+    - VBRRollingPit
+    - YYCategories
+
+EXTERNAL SOURCES:
+  secp256k1_ios:
+    :git: https://github.com/shamatar/secp256k1_ios.git
+
+CHECKOUT OPTIONS:
+  secp256k1_ios:
+    :commit: e3ab3e26fafc3688436528f2ca24cc679c7d746e
+    :git: https://github.com/shamatar/secp256k1_ios.git
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  BigInt: 76b5dfdfa3e2e478d4ffdf161aeede5502e2742f
+  CountryPicker: 664c26411d833bb068c80beb15dc951eadde2911
+  CXDatePickerView: 450d8253290b5203427a6fe814060cc77199e4fa
+  EBForeNotification: 9ae5e440272ae52364db1dd34916b9c2ccb58377
+  FlickerNumber: bce41da51904d533393d69e9734df6281ab1c646
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  GRDB.swift: e10787d857b6b8135354b9e08fb23b4bb8e2fab7
+  HSCryptoKit: 564a3888691658cba58aa60f7d037654fd3c6fb0
+  HSHDWalletKit: e09162c2bb121c9db9b0cf203bd93b40965aad74
+  InputKit: b82938c2c684d285909cac9de150739aa4814d10
+  ISO8601DateFormatter: 4551b6ce4f83185425f583b0b3feb3c7b59b942c
+  JKCountDownButton: 3b557e75d23e7243bb63c8130e6d12d8510468dd
+  KSCrash: 2ca11262cd88571992ada7861639a6eb224c6c2a
+  LLKit: 9f07f76bda529f673998f1653538215b2e9f5159
+  Marshal: ef480864a6af10a63f67be7e55bb5d8fe67a16d9
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  Presentr: 7078d7eb5d1661ebeaae60c9e42a1e534de1b993
+  QiQRCode: 61d9129aea5787b3ef3761fa96ad9c2f3d064f5f
+  QRCodeReader.swift: 74d0378eb0c7807828552b49626bbc8307495aee
+  Realm: e12c9c2387d05c5bba3a9c394838f5870e85763b
+  RealmSwift: a82eab9b04c3e1616082c7e17aa300740847769c
+  RxAtomic: d00e97c10db88c6f08540e0bf2752fc5a2404167
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  secp256k1_ios: ac9ef04e761f43c58012b28548afa91493761f17
+  SipHash: fad90a4683e420c52ef28063063dbbce248ea6d4
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwipeMenuViewController: 572a6fcd7fa95c3d744c760d5e836896817c5735
+  TangramKit: 1b4ee065845919057bdbe930ba39deecbbff181e
+  Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+  UICKeyChainStore: 85db518bb1d294366d15ec9b92a416c4e670518f
+  VBRRollingPit: 62a79cc663aeea6a196878b3a907056617f96b6a
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+
+PODFILE CHECKSUM: 6a09be6d05a929d7246a66cb1616737d5dbfc741
+
+COCOAPODS: 1.5.0

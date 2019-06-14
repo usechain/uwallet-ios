@@ -1,0 +1,6 @@
+framework module InputKit {
+  umbrella header "InputKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

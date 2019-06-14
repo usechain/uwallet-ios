@@ -1,0 +1,6 @@
+framework module QiQRCode {
+  umbrella header "QiQRCode-umbrella.h"
+
+  export *
+  module * { export * }
+}

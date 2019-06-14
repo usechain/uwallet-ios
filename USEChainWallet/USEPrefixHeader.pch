@@ -1,0 +1,48 @@
+//
+//  USEPrefixHeader.pch
+//  USEChainWallet
+//
+//  Created by Jacob on 2019/3/3.
+//  Copyright © 2019 Jacob. All rights reserved.
+//
+
+#ifndef USEPrefixHeader_pch
+#define USEPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+// 去掉Xcode对文档注释格式检查的warning
+//#pragma clang diagnostic push
+//#pragma clang diagnostic ignored "-Wdocumentation"
+//#import "MGJRouter.h"
+//#pragma clang pop
+#ifdef __OBJC__
+
+
+#import "YYCategories.h"
+
+#import "KeychainItemWrapper.h"
+
+
+// 屏幕高度
+#define SCREEN_HEIGHT         [[UIScreen mainScreen] bounds].size.height
+// 屏幕宽度
+#define SCREEN_WIDTH          [[UIScreen mainScreen] bounds].size.width
+// 中文简体
+#define isSimplifiedChinese [[[NSLocale preferredLanguages] firstObject] hasPrefix:@"zh-Hans"]
+// 中文繁体
+#define isTraditionalChinese [[[NSLocale preferredLanguages] firstObject] hasPrefix:@"zh-Hant"]
+// 英文
+#define isEnglish [[[NSLocale preferredLanguages] firstObject] hasPrefix:@"en"]
+
+#define KIsiPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define DEMO_CALL 1
+#if DEMO_CALL == 1
+
+#endif
+
+#endif
+
+#endif /* USEPrefixHeader_pch */
